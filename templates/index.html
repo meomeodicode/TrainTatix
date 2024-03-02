@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block head %}
+<h1>
+        TrainTactix
+</h1>
+<style>
+    font 
+    {
+        font-family: "century gothic";
+        font-size: 50px;
+        color: black
+    }
+    h1
+    {
+        text-align: center;
+    }
+    .center-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+{% include "nav.html" %}
+<div class="content">
+    <img class="img-fluid" src="static/pngtree-fitness-app-tracker-rate-running-trendy-photo-image_24204146.jpg">
+    <div class="center-text">
+        <h2 class="text-center mt-2 mb-4">
+            About us
+        </h2>
+    </div>
+    <p>
+        TrainTactix is a web application that allows users to create their workout routines and customize your meal plans to your best fit.
+    <style>
+        img 
+        {
+            width: 70%;
+            height: 50%;
+        }
+    </style>
+    </div>
+    <div>
+        <h2 class="text-center mt-2 mb-4">
+            Features
+        </h2>
+        <p>
+            <ul>
+                <li><a href="meal.html">Meal Planner </a></li>
+                <li>Progress Tracker</li>
+                <li><a href="tdeecalculator.html">TDEE Calculator</a></li>
+            </ul>
+        </p>
+    </div>
+{% endblock %}
